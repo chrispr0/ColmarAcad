@@ -6,6 +6,8 @@ html {
 body {
   background-color: rgb(243, 245, 245);
   color: #4a4a4a;
+  line-height: 1.5;
+
 }
 
 .wrapper {
@@ -58,7 +60,7 @@ nav ul {
 
 nav ul li {
   border-right: 16px solid rgb(146, 224, 224);
-  padding-top: 8.9%;
+  padding-top: 6%;
 }
 
 nav ul li:last-child {
@@ -92,11 +94,12 @@ nav ul li a {
 .headline h2 {
   font-size: 2.25rem;
   font-weight: bold;
+  line-height: 1.125;
 }
 
 .headline h3 {
   font-size: 1.25rem;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   font-weight: 500;
   padding: 1.5rem 0;
 }
@@ -136,7 +139,7 @@ nav ul li a {
 
 .main-column p {
   font-weight: 100;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   margin-bottom: 1.5rem;
 }
 
@@ -183,8 +186,49 @@ nav ul li a {
 }
 
 
-/* Thesis Section*/
+/* Start Learning Section*/
+.start-learning {
+  background-color: #eaebec;
+}
 
+.sectionhead {
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.course {
+  flex-basis: 28%;
+  background-color: white;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.course .image-container {
+}
+
+.course-info {
+  padding: 1rem 1rem 1.5rem 1rem;
+  font-weight: 300;
+}
+
+.course-info h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.course-info p {
+  margin-top: .5rem;
+  color: #767676;
+}
 
 
 /*  Footer Section  */
