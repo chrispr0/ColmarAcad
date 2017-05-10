@@ -1,0 +1,113 @@
+html {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(243, 245, 245);
+  color: #4a4a4a;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+}
+
+/*  Header Section  */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0 1.5rem;
+}
+
+.logo-desktop {
+  display: flex;
+  align-items: center;
+}
+
+.logo-desktop h1 {
+  font-weight: 600;
+}
+
+.logo-desktop span {
+  font-weight: 200;
+}
+
+nav ul {
+  display: flex;
+  height: 4rem;
+}
+
+nav ul li {
+  border-right: 16px solid rgb(146, 224, 224);
+  padding-top: 8.9%;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+/* Banner Section*/
+
+
+/* Thesis Section*/
+
+
+
+/*  Footer Section  */
+footer {
+  background-color: pink;
+  padding: 0 1.5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .875rem;
+  color: #4a4a4a;
+
+}
+
+/*footer .content {
+  align-items: center;
+  margin: auto 0;
+}*/
+
+footer div {
+  display: flex;
+}
+
+footer ul {
+  display: flex;
+
+}
+
+footer ul li {
+  padding-left: .75rem ;
+
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #4a4a4a;
+
+}
