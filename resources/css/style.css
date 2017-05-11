@@ -1,13 +1,13 @@
 html {
   font-size: 16px;
   font-family: Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 body {
   background-color: rgb(243, 245, 245);
   color: #4a4a4a;
   line-height: 1.5;
-
 }
 
 .wrapper {
@@ -29,6 +29,7 @@ body {
 .image-container img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 /*  Header Section  */
@@ -83,7 +84,6 @@ nav ul li a {
 .banner .image-container {
   max-width: 60%;
   padding: 2rem 0 2rem 1.5rem;
-
 }
 
 .banner .headline {
@@ -93,14 +93,13 @@ nav ul li a {
 
 .headline h2 {
   font-size: 2.25rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.125;
 }
 
 .headline h3 {
   font-size: 1.25rem;
-  /*line-height: 1.5;*/
-  font-weight: 500;
+  font-weight: 400;
   padding: 1.5rem 0;
 }
 
@@ -110,7 +109,7 @@ nav ul li a {
   color: #fff;
   text-align: center;
   padding: .5rem 0;
-  font-weight: 300;
+  /*font-weight: 300;*/
 }
 
 
@@ -125,7 +124,6 @@ nav ul li a {
   max-width: 60%;
   border-right: 1px solid #e0e2e2;
   padding: 2rem 2rem 2rem 1.5rem;
-
 }
 
 .main-column .image-container {
@@ -138,8 +136,6 @@ nav ul li a {
 }
 
 .main-column p {
-  font-weight: 100;
-  /*line-height: 1.5;*/
   margin-bottom: 1.5rem;
 }
 
@@ -217,7 +213,7 @@ nav ul li a {
 
 .course-info {
   padding: 1rem 1rem 1.5rem 1rem;
-  font-weight: 300;
+  /*font-weight: 300;*/
 }
 
 .course-info h2 {
@@ -230,10 +226,36 @@ nav ul li a {
   color: #767676;
 }
 
+/*Thesis Section*/
+.thesis .content {
+  display: flex;
+}
+
+.thesis .sectionhead {
+  padding-bottom: 0;
+}
+
+.thesis .main-column {
+  border-right: none;
+}
+
+video {
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+.thesis h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.thesis .main-column p {
+margin-bottom: 0;
+}
 
 /*  Footer Section  */
 footer {
-  background-color: pink;
   padding: 0 1.5rem;
   height: 4rem;
   display: flex;
@@ -241,13 +263,9 @@ footer {
   justify-content: space-between;
   font-size: .875rem;
   color: #4a4a4a;
-
+  border-top: 1px solid #eaecec;
 }
 
-/*footer .content {
-  align-items: center;
-  margin: auto 0;
-}*/
 
 footer div {
   display: flex;
@@ -255,16 +273,13 @@ footer div {
 
 footer ul {
   display: flex;
-
 }
 
 footer ul li {
   padding-left: .75rem ;
-
 }
 
 footer ul li a {
   text-decoration: none;
   color: #4a4a4a;
-
 }
