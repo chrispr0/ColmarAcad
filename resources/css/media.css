@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 760px) {
 
 
 /*  Mobile Header Styles  */
@@ -32,20 +32,59 @@ nav.mobile ul {
 padding: 0;
 }
 
+/*  Mobile Banner Styles  */
+
+/*.banner .content {
+  flex-direction: column;
+  width: 100%;
+}
+
+.banner .image-container {
+  max-width: 100%;
+  max-height: 180px;
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+
+.banner .headline {
+  width: 100%;
+ padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 100%;
+}*/
 
 
 
 
 
+/*  Mobile Footer Styles  */
+
+.main-column {
+  max-width: 100%;
+  padding: 2rem 0 0 0;;
+}
+
+.thesis .second-column {
+  display: none;
+}
+
+.thesis .main-column h3 {
+  display: none;
+}
+
+.thesis .main-column p {
+  display: none;
+}
 
 
 
+/*  Mobile Footer Styles  */
 
-
-
-
-
-
+footer ul {
+  display: none;
+}
 
 
 }
