@@ -54,21 +54,26 @@ header {
   font-weight: 200;
 }
 
-nav ul {
+.mobile {
+  display: none;
+}
+
+
+nav.desktop ul {
   display: flex;
   height: 4rem;
 }
 
-nav ul li {
+nav.desktop ul li {
   border-right: 16px solid rgb(146, 224, 224);
   padding-top: 6%;
 }
 
-nav ul li:last-child {
+nav.desktop ul li:last-child {
   border-right: none;
 }
 
-nav ul li a {
+nav.desktop ul li a {
   text-decoration: none;
   color: #4a4a4a;
 }

@@ -1,0 +1,51 @@
+@media only screen and (max-width: 700px) {
+
+
+/*  Mobile Header Styles  */
+
+header h1 {
+  display: none;
+}
+
+.desktop, .logo-desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+nav.mobile {
+  display: block;
+  width: 100%;
+  justify-content: space-around;
+}
+
+nav.mobile ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile li {
+padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
