@@ -57,6 +57,71 @@ padding: 0;
 
 
 
+/*Mobile Articles Styles */
+
+.articles .main-column {
+  display: none;
+}
+
+.articles .second-column {
+  max-width: none;
+  width: 100%;
+}
+
+.second-column .image-container {
+  max-width: none;
+  width: 100%;
+  margin-right: 0;
+}
+
+.image-container .desktop {
+  display: none;
+}
+
+.image-container .mobile {
+  display: block;
+}
+
+.articles .information {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.details {
+  padding: 1rem 1rem 0 1rem;
+}
+
+/*Mobile Start Learning Styles */
+
+.sectionhead {
+    padding: 2rem 0 1rem 0;
+}
+
+.courses {
+  flex-direction: column;
+}
+
+.course {
+  background-color: #d8d8d8;
+  margin-bottom: .5rem;
+}
+
+.course-info {
+  padding: 1rem;
+}
+
+.course .image-container {
+  display: none;
+}
+
+.course-info h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.course-info p {
+  display: none;
+}
 
 
 /*  Mobile Footer Styles  */

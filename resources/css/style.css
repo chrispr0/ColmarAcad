@@ -159,6 +159,9 @@ nav.desktop ul li a {
   background-color: #d8d8d8;
 }
 
+.image-container .mobile {
+  display: none;
+}
 
 .second-column .information {
   display: flex;
