@@ -19,9 +19,6 @@ body {
   text-align: center;
 }
 
-.content {
-}
-
 .image-container {
   overflow: hidden;
 }
@@ -58,7 +55,6 @@ header {
   display: none;
 }
 
-
 nav.desktop ul {
   display: flex;
   height: 4rem;
@@ -83,7 +79,6 @@ nav.desktop ul li a {
   display: flex;
   align-items: center;
   background-color: #b8b8b8;
-
 }
 
 .banner .image-container {
@@ -131,9 +126,6 @@ nav.desktop ul li a {
   padding: 2rem 2rem 2rem 1.5rem;
 }
 
-.main-column .image-container {
-}
-
 .main-column h2 {
   font-size: 2rem;
   font-weight: bold;
@@ -168,7 +160,6 @@ nav.desktop ul li a {
   padding: 1rem;
   align-items: center;
 }
-
 
 .second-column .image-container {
   max-width: 35%;
@@ -216,12 +207,8 @@ nav.desktop ul li a {
   margin: 0 1rem 1rem 1rem;
 }
 
-.course .image-container {
-}
-
 .course-info {
   padding: 1rem 1rem 1.5rem 1rem;
-  /*font-weight: 300;*/
 }
 
 .course-info h2 {
@@ -235,6 +222,7 @@ nav.desktop ul li a {
 }
 
 /*Thesis Section*/
+
 .thesis .content {
   display: flex;
 }
@@ -263,6 +251,7 @@ margin-bottom: 0;
 }
 
 /*  Footer Section  */
+
 footer {
   padding: 0 1.5rem;
   height: 4rem;
@@ -273,7 +262,6 @@ footer {
   color: #4a4a4a;
   border-top: 1px solid #eaecec;
 }
-
 
 footer div {
   display: flex;

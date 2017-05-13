@@ -1,155 +1,166 @@
 @media only screen and (max-width: 760px) {
 
 
-/*  Mobile Header Styles  */
+  /*  Mobile Header Styles  */
 
-header h1 {
-  display: none;
-}
+  header h1 {
+    display: none;
+  }
 
-.desktop, .logo-desktop {
-  display: none;
-}
+  .desktop, .logo-desktop {
+    display: none;
+  }
 
-.mobile {
-  display: block;
-}
+  .mobile {
+    display: block;
+  }
 
-nav.mobile {
-  display: block;
-  width: 100%;
-  justify-content: space-around;
-}
+  nav.mobile {
+    display: block;
+    width: 100%;
+    justify-content: space-around;
+  }
 
-nav.mobile ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
+  nav.mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
 
-.mobile li {
-padding: 0;
-}
-
-/*  Mobile Banner Styles  */
-
-/*.banner .content {
-  flex-direction: column;
-  width: 100%;
-}
-
-.banner .image-container {
-  max-width: 100%;
-  max-height: 180px;
-  margin: 0 0 2rem 0;
+  .mobile li {
   padding: 0;
-}
-
-.banner .headline {
-  width: 100%;
- padding: 0 1rem 2rem 1rem;
-}
-
-.button {
-  width: 100%;
-}*/
+  }
 
 
+  /*  Mobile Banner Styles  */
 
-/*Mobile Articles Styles */
+  .banner .content {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
 
-.articles .main-column {
-  display: none;
-}
+  .banner .image-container {
+    max-width: none;
+    max-height: 180px;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
 
-.articles .second-column {
-  max-width: none;
-  width: 100%;
-}
+  .banner .headline {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 2rem;
+  }
 
-.second-column .image-container {
-  max-width: none;
-  width: 100%;
-  margin-right: 0;
-}
+  .headline h2, h3 {
+    margin: 0 1rem;
+  }
 
-.image-container .desktop {
-  display: none;
-}
+  .headline h3 {
+    padding: 2rem 0 1.5rem 0;
+  }
 
-.image-container .mobile {
-  display: block;
-}
-
-.articles .information {
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.details {
-  padding: 1rem 1rem 0 1rem;
-}
-
-/*Mobile Start Learning Styles */
-
-.sectionhead {
-    padding: 2rem 0 1rem 0;
-}
-
-.courses {
-  flex-direction: column;
-}
-
-.course {
-  background-color: #d8d8d8;
-  margin-bottom: .5rem;
-}
-
-.course-info {
-  padding: 1rem;
-}
-
-.course .image-container {
-  display: none;
-}
-
-.course-info h2 {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.course-info p {
-  display: none;
-}
+  .button {
+    margin: 0 1rem;
+  }
 
 
-/*  Mobile Footer Styles  */
+  /*Mobile Articles Styles */
 
-.main-column {
-  max-width: 100%;
-  padding: 2rem 0 0 0;;
-}
+  .articles .main-column {
+    display: none;
+  }
 
-.thesis .second-column {
-  display: none;
-}
+  .articles .second-column {
+    max-width: none;
+    width: 100%;
+  }
 
-.thesis .main-column h3 {
-  display: none;
-}
+  .second-column .image-container {
+    max-width: none;
+    width: 100%;
+    margin-right: 0;
+  }
 
-.thesis .main-column p {
-  display: none;
-}
+  .image-container .desktop {
+    display: none;
+  }
+
+  .image-container .mobile {
+    display: block;
+  }
+
+  .articles .information {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .details {
+    padding: 1rem 1rem 0 1rem;
+  }
 
 
+  /*Mobile Start Learning Styles */
 
-/*  Mobile Footer Styles  */
+  .sectionhead {
+      padding: 2rem 0 1rem 0;
+  }
 
-footer ul {
-  display: none;
-}
+  .courses {
+    flex-direction: column;
+  }
+
+  .course {
+    background-color: #d8d8d8;
+    margin-bottom: .5rem;
+  }
+
+  .course-info {
+    padding: 1rem;
+  }
+
+  .course .image-container {
+    display: none;
+  }
+
+  .course-info h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .course-info p {
+    display: none;
+  }
+
+
+  /*  Mobile Footer Styles  */
+
+  .main-column {
+    max-width: 100%;
+    padding: 2rem 0 0 0;;
+  }
+
+  .thesis .second-column {
+    display: none;
+  }
+
+  .thesis .main-column h3 {
+    display: none;
+  }
+
+  .thesis .main-column p {
+    display: none;
+  }
+
+
+  /*  Mobile Footer Styles  */
+
+  footer ul {
+    display: none;
+  }
 
 
 }
